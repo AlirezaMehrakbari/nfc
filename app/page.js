@@ -100,7 +100,6 @@ const NFCApp = () => {
                                     onClick={() => {
                                         setMethod("url")
                                         setMethodModal(false)
-                                        set
                                     }}
                                     className="w-full py-2 bg-blue-500 text-white rounded-md mb-4"
                                 >
@@ -195,7 +194,6 @@ const NFCApp = () => {
                 }
 
 
-
                 <button
                     onClick={handleWrite}
                     className="w-full py-2 bg-green-500 text-white rounded-md hover:bg-green-600 transition"
@@ -236,6 +234,12 @@ const NFCApp = () => {
                     </div>
                 </div>
             }
+            <p className={'text-xs mt-4'}>
+                <span className={'px-2'}>
+                Created by :
+                </span>
+                Alireza Mehrakbari,Mahan Fallahnezhad
+            </p>
         </div>
     );
 };
